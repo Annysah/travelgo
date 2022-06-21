@@ -20,8 +20,8 @@ const HomeSection = styled.section`
   .content {
     .info {
         position: absolute;
-        top: 4.5rem;
-        left: 22%;
+        top: 4.8rem;
+        left: 19%;
         //margin-left: 4rem;
 
         h1 {

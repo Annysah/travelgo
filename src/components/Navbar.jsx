@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Button from "./Button";
-import { BsPerson, BsSearch } from "react-icons/bs";
 
 const Nav = styled.nav`
   display: flex;
