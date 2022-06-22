@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import Button from "./Button";
-import about from "../assets/about2.avif";
+import about from "../assets/about.avif";
 
 const Section = styled.section`
   margin-top: 7rem;
@@ -35,7 +35,7 @@ const Section = styled.section`
 
       p {
         font-size: 1.1rem;
-        line-height: 1.5;
+        line-height: 2;
         color: #666;
         margin-top: 2.2rem;
         margin-bottom: 1.3rem;
@@ -67,15 +67,11 @@ const About = () => {
             <p>Flexible Offers –</p>
             <p>
               We always ensure customers satifaction by providing as many travel
-              destinations as possible all at very affordable prices. Ut enim ad
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.
+              destinations as possible all at very affordable prices. 
               <br />
               <br />
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur.
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             </p>
             <Button text="Learn More" />
           </div>

@@ -68,7 +68,7 @@ const OfferSection = styled.section`
 const Offers = () => {
   const data = [
     {
-      text: "Best Travel Guide",
+      text: "Best Tour Guide",
       icon: <BsPerson />,
       color: "pink",
     },

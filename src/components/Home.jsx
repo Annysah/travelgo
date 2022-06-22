@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Button from "./Button";
 
-import hero from "../assets/hero2.avif";
+import hero from "../assets/hero.avif";
 
 const HomeSection = styled.section`
   margin-top: 1.7rem;
