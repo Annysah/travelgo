@@ -66,12 +66,12 @@ const About = () => {
           <div>
             <p>Flexible Offers –</p>
             <p>
+              Since 2011, TravelGo has been focused on bringing our customers
+              the best in esteem and quality travel game plans.
+              <br />
+              <br />
               We always ensure customers satifaction by providing as many travel
-              destinations as possible all at very affordable prices. 
-              <br />
-              <br />
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              destinations as possible all at affordable prices.
             </p>
             <Button text="Learn More" />
           </div>

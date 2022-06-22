@@ -72,9 +72,9 @@ const Testimonials = () => {
           <div>
             <p>What they say –</p>
             <p>
-              "My whole experience with TravelGo was amazing. The customer support service was also top notch, 
-              they attended swiftly to all of my enquiries. As a first time customer I also enjoyed the benefit of a 30% discount
-              on my trips. I would definitely recommend TravelGo to my friends and family." 
+              "My whole experience with TravelGo was amazing. The customer support service was top notch, 
+              they attended swiftly to all of my enquiries. As a first time customer, I also enjoyed the benefit of a 30% discount
+              on all my trips. I would definitely recommend TravelGo to my friends and family." 
             </p>
             <div className="customer-details">
             <h4>Jane Doe</h4>

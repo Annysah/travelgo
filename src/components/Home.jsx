@@ -127,7 +127,7 @@ const Home = () => {
                 />
               </div>
               <div className="row">
-                <Button text="Discover More" />
+                <Button text="Search" />
               </div>
             </form>
           </div>
