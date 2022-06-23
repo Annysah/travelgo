@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --primary-color: #b2f3df;
   --card-gray-color: #f2f2f2;
@@ -14,6 +8,18 @@
   --secondary-text-color: #90a8a9;
   --transition: 1s ease-in;
   --light-green: #1ec28b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  body {
+    margin: 0;
+  }
 }
 
 html {

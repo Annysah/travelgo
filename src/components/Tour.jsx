@@ -57,23 +57,55 @@ const TourSection = styled.section`
             gap: 7rem;
 
             .price {
-                color: #ff7424;
-                font-weight: bold;
+              color: #ff7424;
+              font-weight: bold;
             }
 
             .reviews {
-                display: flex;
-                gap: 0.5rem;
+              display: flex;
+              gap: 0.5rem;
 
-                .stars {
-                    svg {
-                        color: #fdda0d;
-                    }
+              .stars {
+                svg {
+                  color: #fdda0d;
                 }
-            }      
+              }
+            }
           }
         }
-     }
+      }
+    }
+  }
+
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    margin: 0 2rem;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    .tours {
+      grid-template-columns: 1fr;
+
+      .tour {
+        .image {
+          img {
+            max-inline-size: 100%;
+            block-size: auto;
+          }
+        }
+
+        .info {
+          .details {
+            font-size: 0.8rem;
+
+            .price-details {
+              gap: 2rem;
+            }
+          }
+        }
+      }
+    }
   }
 `;
 

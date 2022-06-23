@@ -46,6 +46,7 @@ const Section = styled.section`
   .half-width {
     height: 55vh;
   }
+  
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     .title-container {
       text-align: center;

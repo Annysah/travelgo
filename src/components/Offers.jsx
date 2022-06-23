@@ -9,7 +9,6 @@ const OfferSection = styled.section`
   display: flex;
   gap: 8rem;
   margin-top: 8rem;
-  
 
   .image {
     img {
@@ -63,6 +62,41 @@ const OfferSection = styled.section`
       }
     }
   }
+
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    margin: 5rem 1rem;
+    flex-direction: column;
+    gap: 1rem;
+
+    .image {
+      img {
+        max-inline-size: 100%;
+        block-size: auto;
+      }
+    }
+
+    .content {
+      .title {
+        h1 {
+          font-size: 2rem;
+          text-align: center;
+        }
+      }
+
+      .list {
+        li {
+          gap: 1rem;
+          margin: 2rem 0;
+
+          .text {
+            h3 {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
 `;
 
 const Offers = () => {
@@ -91,9 +125,7 @@ const Offers = () => {
         </div>
         <div className="content">
           <div className="title">
-            <h1>
-              Our Offers
-            </h1>
+            <h1>Our Offers</h1>
           </div>
           <ul className="list">
             {data.map(({ text, icon, color }) => {
