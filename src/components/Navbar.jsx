@@ -135,16 +135,16 @@ const Navbar = () => {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#destinations">Offers</a>
+            <a href="#offers">Offers</a>
           </li>
           <li>
-            <a href="#pricing">Destinations</a>
+            <a href="#destination">Destinations</a>
           </li>
           <li>
-            <a href="#tour">Testimonials</a>
+            <a href="#testimonials">Testimonials</a>
           </li>
           <li>
-            <a href="#blog">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
