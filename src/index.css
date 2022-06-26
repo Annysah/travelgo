@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-  --primary-color: #b2f3df;
   --card-gray-color: #f2f2f2;
-  /*--primary-text-color: #023020;*/
   --primary-text-color: #2b2945;
   --secondary-text-color: #90a8a9;
   --transition: 1s ease-in;
-  --light-green: #1ec28b;
 }
 
 * {

@@ -78,7 +78,7 @@ const OfferSection = styled.section`
     .content {
       .title {
         h1 {
-          font-size: 2rem;
+          font-size: 1.5rem;
           text-align: center;
         }
       }
@@ -90,7 +90,7 @@ const OfferSection = styled.section`
 
           .text {
             h3 {
-              font-size: 1rem;
+              font-size: 0.8rem;
             }
           }
         }

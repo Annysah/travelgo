@@ -5,7 +5,7 @@ import Button from "./Button";
 import about from "../assets/about.avif";
 
 const Section = styled.section`
-  margin-top: 7rem;
+  margin-top: 16rem;
   display: flex;
   align-items: center;
   gap: 3rem;
@@ -21,7 +21,6 @@ const Section = styled.section`
       align-items: center;
       flex-direction: column;
       gap: 3rem;
-      gap: 0.5rem;
 
       h1 {
         font-size: 2.5rem;
@@ -46,10 +45,33 @@ const Section = styled.section`
   .half-width {
     height: 55vh;
   }
-  
+
   @media screen and (min-width: 280px) and (max-width: 1080px) {
-    .title-container {
-      text-align: center;
+    margin: 4rem 1rem;
+    align-items: flex-start;
+
+    .content {
+      gap: 0.5rem;
+
+      .title-container {
+
+        h1 {
+          font-size: 1.5rem;
+        }
+      }
+
+      .text-content-wrapper {
+        flex-direction: column;
+
+        p {
+          font-size: 0.8rem;
+        }
+      }
+
+      .half-width {
+        max-inline-size: 100%;
+        block-size: auto;
+      }
     }
   }
 `;

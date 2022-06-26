@@ -11,10 +11,9 @@ const Section = styled.section`
   width: 100%;
   height: 25rem;
   margin: 8rem 0;
-  background: #FF5F6D;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #ff5f6d;
+  background: -webkit-linear-gradient(to right, #ffc371, #ff5f6d);
+  background: linear-gradient(to right, #ffc371, #ff5f6d);
   padding: 0 10rem;
   position: relative;
   overflow: hidden;
@@ -31,7 +30,6 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
     h1 {
       font-size: 2.5rem;
       text-align: center;
-      //color: var(--primary-text-color);
     }
 
     p {
@@ -50,6 +48,34 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
       }
     }
   }
+
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    margin: 2rem 0;
+    height: 18rem;
+    padding: 0 2rem;
+
+    .info {
+      margin: 0 1rem;
+      gap: 2rem;
+
+      h1 {
+        font-size: 1rem;
+      }
+
+      p {
+        display: none;
+      }
+
+      .downloads {
+        flex-direction: column;
+
+        img {
+          max-inline-size: 100%;
+          block-size: auto;
+        }
+      }
+    }
+  }
 `;
 
 const Download = () => {
@@ -58,9 +84,7 @@ const Download = () => {
       <Section>
         <div className="info">
           <h1>Download the TravelGo app today!</h1>
-          <p>
-            Get the latest updates about our services right on your mobile.
-          </p>
+          <p>Get the latest updates about our services right on your mobile.</p>
           <div className="downloads">
             <img src={android} alt="android" />
             <img src={ios} alt="ios" />

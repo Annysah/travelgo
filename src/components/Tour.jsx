@@ -81,7 +81,7 @@ const TourSection = styled.section`
     margin: 0 2rem;
 
     h2 {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
 
     .tours {
@@ -96,11 +96,14 @@ const TourSection = styled.section`
         }
 
         .info {
+          padding: 0.5rem;
+
           .details {
-            font-size: 0.8rem;
+            font-size: 0.6rem;
 
             .price-details {
-              gap: 2rem;
+              flex-direction: column;
+              gap: 0.5rem;
             }
           }
         }

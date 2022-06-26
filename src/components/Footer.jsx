@@ -11,54 +11,87 @@ const FooterSection = styled.footer`
     border-bottom: 1px solid #ccc;
     padding-bottom: 2rem;
     gap: 5rem;
+
     .col {
       display: flex;
       flex-direction: column;
       gap: 2rem;
-      color: var(--secondary-text);
+      color: var(--secondary-text-color);
+
       h2 {
-        color: black;
+        color: var(--primary-text-color);
       }
+
       ul {
         list-style: none;
         display: flex;
         flex-direction: column;
         gap: 1rem;
+
         li {
           cursor: pointer;
-          transition: var(--default-transition);
+          transition: var(--transition);
+
           &:hover {
-            color: var(--primary-color);
+            color: var(--primary-text-color);
           }
         }
       }
+
       .newsletter {
         display: flex;
         flex-direction: column;
         gap: 1rem;
+
         input {
           padding: 1rem 2rem;
           border: none;
           font-size: 1.1rem;
-          color: white;
+          color: #fff;
           cursor: pointer;
           background-color: #f8f8f8;
         }
       }
     }
   }
+
   .lower-footer {
     padding: 2rem 0;
     text-align: center;
+
     a {
       text-decoration: none;
       color: #ff7424;
     }
   }
+
   @media screen and (min-width: 280px) and (max-width: 1080px) {
-    margin: 2rem;
+    margin: 4rem 0;
+    align-items: flex-start;
     .upper-footer {
       grid-template-columns: 1fr;
+
+      .col {
+        h2 {
+          font-size: 1.5rem;
+        }
+
+        ul {
+          li {
+            font-size: 0.8rem;
+          }
+        }
+
+        .newsletter {
+          input {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+
+    .lower-footer {
+      font-size: 0.8rem;
     }
   }
 `;

@@ -19,12 +19,16 @@ const HomeSection = styled.section`
 
   .content {
     .info {
-      position: absolute;
-      top: 4.8rem;
-      left: 10%;
+      margin-top: -30rem;
       text-align: center;
 
       h1 {
+        font-size: 5rem;
+        color: var(--primary-text-color);
+        margin-bottom: 1.3rem;
+      }
+
+      h2 {
         font-size: 5rem;
         color: var(--primary-text-color);
         margin-bottom: 1.3rem;
@@ -40,7 +44,7 @@ const HomeSection = styled.section`
     .planner {
       position: absolute;
       right: 0;
-      bottom: -2rem;
+      bottom: -12rem;
       background-color: #ffffff;
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
@@ -90,28 +94,42 @@ const HomeSection = styled.section`
     }
     .content {
       .info {
-        top: 2.5rem;
-        left: 5%;
+        margin-top: -16rem;
+
         h1 {
           font-size: 1.4rem;
-          margin-bottom: 0.3rem;
+          margin-bottom: 0.1rem;
+        }
+
+        h2 {
+          font-size: 1.4rem;
+          margin-bottom: 3rem;
         }
 
         p {
-          font-size: 0.8rem;
-          font-weight: bold;
-          margin-top: 1.5rem;
-          margin-bottom: 1.1rem;
-          padding: 0 1.2rem;
+          display: none;
         }
       }
       .planner {
         position: initial;
-        margin: 2rem;
+        margin-top: 7.5rem;
+        border-radius: 10px;
+
         form {
           align-items: flex-start;
           flex-direction: column;
+
+          .row {
+            input,
+            select {
+              font-size: 0.8rem;
+            }
+          }
         }
+      }
+
+      .button {
+        margin-top: 7rem;
       }
     }
   }
@@ -126,7 +144,7 @@ const Home1 = () => {
         <div className="content">
           <div className="info">
             <h1>Explore new places with </h1>
-            <h1>TravelGo</h1>
+            <h2>TravelGo</h2>
             <p>
               With our unique offers you are sure to get the most unforgettable
               experience.
@@ -157,7 +175,7 @@ const Home1 = () => {
                 />
               </div>
               <div className="row">
-                <Button text="Search" />
+                <Button text="Search" className="button" />
               </div>
             </form>
           </div>

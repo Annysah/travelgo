@@ -57,20 +57,37 @@ const Section = styled.section`
   }
 
   @media screen and (min-width: 280px) and (max-width: 1080px) {
-    margin-top: 8rem;
-    flex-direction: column;
+    margin: 4rem 1rem;
+    align-items: flex-start;
 
     .content {
+      gap: 0.5rem;
+
       .title-container {
+
         h1 {
           font-size: 1.5rem;
+          text-align: center;
         }
       }
 
       .text-content-wrapper {
+        flex-direction: column;
+
         p {
           font-size: 0.8rem;
         }
+
+        .customer-details {
+          h4, .travel-title {
+            font-size: 0.6rem;
+          }
+        }
+      }
+
+      .half-width {
+        max-inline-size: 100%;
+        block-size: auto;
       }
     }
   }
