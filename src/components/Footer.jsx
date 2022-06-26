@@ -47,7 +47,7 @@ const FooterSection = styled.footer`
           padding: 1rem 2rem;
           border: none;
           font-size: 1.1rem;
-          color: #fff;
+          color: var(--primary-text-color);
           cursor: pointer;
           background-color: #f8f8f8;
         }
