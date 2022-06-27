@@ -1,9 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-import android from "../assets/android.jpg";
-import ios from "../assets/ios.jfif";
-
 const Section = styled.section`
   display: flex;
   align-items: center;
@@ -86,8 +83,8 @@ const Download = () => {
           <h1>Download the TravelGo app today!</h1>
           <p>Get the latest updates about our services right on your mobile.</p>
           <div className="downloads">
-            <img src={android} alt="android" />
-            <img src={ios} alt="ios" />
+            <img src="https://res.cloudinary.com/annysah/image/upload/v1656353644/android_wfgv7u.jpg" alt="android" />
+            <img src="https://res.cloudinary.com/annysah/image/upload/v1656353644/ios_hjovip.jpg" alt="ios" />
           </div>
         </div>
       </Section>

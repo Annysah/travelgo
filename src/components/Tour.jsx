@@ -2,13 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { BsFillStarFill } from "react-icons/bs";
 
-import place from "../assets/place.avif";
-import place2 from "../assets/place2.avif";
-import place3 from "../assets/place3.avif";
-import place4 from "../assets/place4.avif";
-import place5 from "../assets/place5.avif";
-import place6 from "../assets/place6.avif";
-
 const TourSection = styled.section`
   margin-top: 7rem;
   margin-bottom: 5rem;
@@ -115,32 +108,32 @@ const TourSection = styled.section`
 const Tour = () => {
   const data = [
     {
-      image: place,
+      image: "https://res.cloudinary.com/annysah/image/upload/v1656353645/place_a5v74c.avif",
       text: "Burj Khalifa, UAE",
       price: 4000,
     },
     {
-      image: place2,
+      image: "https://res.cloudinary.com/annysah/image/upload/v1656353645/place2_bx0t5m.avif",
       text: "Venice, Italy",
       price: 6000,
     },
     {
-      image: place3,
+      image: "https://res.cloudinary.com/annysah/image/upload/v1656353645/place3_irxxsj.avif",
       text: "Paris, France",
       price: 6000,
     },
     {
-      image: place4,
+      image: "https://res.cloudinary.com/annysah/image/upload/v1656353645/place4_ekiv4o.avif",
       text: "Aurelian Walls, Rome",
       price: 5000,
     },
     {
-      image: place5,
+      image: "https://res.cloudinary.com/annysah/image/upload/v1656353645/place5_kiwh74.avif",
       text: "Moscow, Russia",
       price: 9000,
     },
     {
-      image: place6,
+      image: "https://res.cloudinary.com/annysah/image/upload/v1656353646/place6_dznbma.avif",
       text: "Tulum, Mexico",
       price: 7000,
     },

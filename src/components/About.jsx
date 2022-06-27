@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 import Button from "./Button";
-import about from "../assets/about.avif";
 
 const Section = styled.section`
   margin-top: 16rem;
@@ -99,7 +98,7 @@ const About = () => {
             <Button text="Learn More" />
           </div>
           <div className="image">
-            <img src={about} alt="about" className="half-width" />
+            <img src="https://res.cloudinary.com/annysah/image/upload/v1656353644/about_gqow7x.avif" alt="about" className="half-width" />
           </div>
         </div>
       </div>

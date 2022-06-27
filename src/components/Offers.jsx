@@ -3,8 +3,6 @@ import styled from "styled-components";
 import { BsPerson } from "react-icons/bs";
 import { BiMoney, BiSupport } from "react-icons/bi";
 
-import offer from "../assets/offer.avif";
-
 const OfferSection = styled.section`
   display: flex;
   gap: 8rem;
@@ -121,7 +119,7 @@ const Offers = () => {
     <>
       <OfferSection>
         <div className="image">
-          <img src={offer} alt="" />
+          <img src="https://res.cloudinary.com/annysah/image/upload/v1656353646/offer_txpmef.avif" alt="" />
         </div>
         <div className="content">
           <div className="title">

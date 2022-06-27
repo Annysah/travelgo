@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-import testimonial from "../assets/testimonial.jpg";
-
 const Section = styled.section`
   margin-top: 8rem;
   display: flex;
@@ -119,7 +117,7 @@ const Testimonials = () => {
               </div>
             </div>
             <div className="image">
-              <img src={testimonial} alt="testimonial" className="half-width" />
+              <img src="https://res.cloudinary.com/annysah/image/upload/v1656353645/testimonial_dgqfc5.jpg" alt="testimonial" className="half-width" />
             </div>
           </div>
         </div>

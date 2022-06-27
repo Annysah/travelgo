@@ -2,14 +2,12 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Button from "./Button";
 
-import hero from "../assets/hero.avif";
-
 const HomeSection = styled.section`
   margin-top: 1.7rem;
   position: relative;
 
   .background {
-    background: url(${hero});
+    background: url("https://res.cloudinary.com/annysah/image/upload/v1656353644/hero_cm8pwz.avif");
     background-size: cover;
     background-position: 85% 15%;
     background-repeat: no-repeat;
