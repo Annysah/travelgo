@@ -16,7 +16,7 @@ const FooterSection = styled.footer`
       display: flex;
       flex-direction: column;
       gap: 2rem;
-      color: var(--secondary-text-color);
+      color: var(--primary-text-color);
 
       h2 {
         color: var(--primary-text-color);

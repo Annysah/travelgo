@@ -7,7 +7,7 @@ const HomeSection = styled.section`
   position: relative;
 
   .background {
-    background: url("https://res.cloudinary.com/annysah/image/upload/v1656353644/hero_cm8pwz.avif");
+    background: url("https://res.cloudinary.com/annysah/image/upload/v1656433852/hero_sdipwj.jpg");
     background-size: cover;
     background-position: 85% 15%;
     background-repeat: no-repeat;

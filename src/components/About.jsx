@@ -98,7 +98,7 @@ const About = () => {
             <Button text="Learn More" />
           </div>
           <div className="image">
-            <img src="https://res.cloudinary.com/annysah/image/upload/v1656353644/about_gqow7x.avif" alt="about" className="half-width" />
+            <img src="https://res.cloudinary.com/annysah/image/upload/v1656433853/about_ofuzp4.jpg" alt="about" className="half-width" />
           </div>
         </div>
       </div>

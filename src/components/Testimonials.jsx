@@ -117,7 +117,7 @@ const Testimonials = () => {
               </div>
             </div>
             <div className="image">
-              <img src="https://res.cloudinary.com/annysah/image/upload/v1656353645/testimonial_dgqfc5.jpg" alt="testimonial" className="half-width" />
+              <img src="https://res.cloudinary.com/annysah/image/upload/v1656433853/testimonial_ajcagh.jpg" alt="testimonial" className="half-width" />
             </div>
           </div>
         </div>

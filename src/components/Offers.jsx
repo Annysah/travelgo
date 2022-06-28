@@ -119,7 +119,7 @@ const Offers = () => {
     <>
       <OfferSection>
         <div className="image">
-          <img src="https://res.cloudinary.com/annysah/image/upload/v1656353646/offer_txpmef.avif" alt="" />
+          <img src="https://res.cloudinary.com/annysah/image/upload/v1656433853/offer_xtmvyn.jpg" alt="" />
         </div>
         <div className="content">
           <div className="title">

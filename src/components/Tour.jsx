@@ -108,32 +108,32 @@ const TourSection = styled.section`
 const Tour = () => {
   const data = [
     {
-      image: "https://res.cloudinary.com/annysah/image/upload/v1656353645/place_a5v74c.avif",
+      image: "https://res.cloudinary.com/annysah/image/upload/v1656433854/place_o2pxjr.jpg",
       text: "Burj Khalifa, UAE",
       price: 4000,
     },
     {
-      image: "https://res.cloudinary.com/annysah/image/upload/v1656353645/place2_bx0t5m.avif",
+      image: "https://res.cloudinary.com/annysah/image/upload/v1656433853/place2_da09qa.jpg",
       text: "Venice, Italy",
       price: 6000,
     },
     {
-      image: "https://res.cloudinary.com/annysah/image/upload/v1656353645/place3_irxxsj.avif",
+      image: "https://res.cloudinary.com/annysah/image/upload/v1656433851/place3_qqqbii.jpg",
       text: "Paris, France",
       price: 6000,
     },
     {
-      image: "https://res.cloudinary.com/annysah/image/upload/v1656353645/place4_ekiv4o.avif",
+      image: "https://res.cloudinary.com/annysah/image/upload/v1656433852/place4_tmqjyl.jpg",
       text: "Aurelian Walls, Rome",
       price: 5000,
     },
     {
-      image: "https://res.cloudinary.com/annysah/image/upload/v1656353645/place5_kiwh74.avif",
+      image: "https://res.cloudinary.com/annysah/image/upload/v1656433852/place5_odb4ft.jpg",
       text: "Moscow, Russia",
       price: 9000,
     },
     {
-      image: "https://res.cloudinary.com/annysah/image/upload/v1656353646/place6_dznbma.avif",
+      image: "https://res.cloudinary.com/annysah/image/upload/v1656433850/place6_j7cfz3.jpg",
       text: "Tulum, Mexico",
       price: 7000,
     },
